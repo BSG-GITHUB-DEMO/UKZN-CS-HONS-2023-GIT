@@ -93,16 +93,6 @@
 
         <div class="w3-container">
             <hr>
-            <div class="w3-center">
-                <h2>Location</h2>
-
-
-                <div class="w3-row">
-                    <p id="location"></p>
-                </div>
-            </div>
-
-            <hr>
             <h2 class="w3-center">Forms and Lists</h2>
         </div>
 
@@ -112,39 +102,41 @@
                 <form id="myForm" class="w3-container w3-card-4">
                     <h2>Input Form</h2>
                     <div class="w3-section">
+                        <label><b>Full Name</b></label>
                         <input id="name" class="w3-input" type="text" required>
-                        <label><b>Name</b></label>
                     </div>
                     <div class="w3-section">
+                        <label><b>Personal Email</b></label>
                         <input id="personal_email" class="w3-input" type="email"
                             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-                        <label><b>Personal Email</b></label>
                     </div>
                     <div class="w3-section">
+                        <label><b>Student Email</b></label>
                         <input id="student_email" class="w3-input" type="email"
                             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-                        <label><b>Student Email</b></label>
                     </div>
                     <div class="w3-section">
+                        <label><b>Phone number</b></label>
                         <input id="phone_number" class="w3-input" type="text" pattern="[0-9]*" inputmode="numeric"
                             required>
-                        <label><b>Phone number</b></label>
                     </div>
                     <div class="w3-section">
-                        <input id="specialisation" class="w3-input" type="text" required>
                         <label><b>Specialisation</b></label>
+                        <input id="specialisation" class="w3-input" type="text" required>
                     </div>
                     <div class="w3-section">
-                        <input id="formatted_address" class="w3-input" type="text" required>
                         <label><b>Formatted Address</b></label>
+                        <input id="formatted_address" class="w3-input" type="text" required>
                     </div>
                     <div class="w3-section">
-                        <input id="lat_long" class="w3-input" type="text" required>
                         <label><b>Lat & Long</b></label>
+                        <input id="lat_long" class="w3-input" type="text" required>
                     </div>
 
                     <div class="w3-row">
                         <div class="w3-full">
+                            <label><b>Year of study</b></label>
+                            <br>
                             <label>
                                 <input name="year_of_study" class="w3-radio" type="radio" value="3rd year">
                                 3rd year
@@ -161,14 +153,14 @@
                                 <input name="year_of_study" class="w3-radio" type="radio" value="Other">
                                 Other
                             </label>
-                            <br>
-                            <label><b>Year of study</b></label>
                             <br><br>
                         </div>
                     </div>
 
                     <div class="w3-row">
                         <div class="w3-full">
+                            <label><b>Gender</b></label>
+                            <br>
                             <label>
                                 <input name="gender" class="w3-radio" type="radio" value="Female">
                                 Female
@@ -181,14 +173,14 @@
                                 <input name="gender" class="w3-radio" type="radio" value="Other">
                                 Other
                             </label>
-                            <br>
-                            <label><b>Gender</b></label>
                             <br><br>
                         </div>
                     </div>
 
                     <div class="w3-row">
                         <div class="w3-full">
+                            <label><b>Race</b></label>
+                            <br>
                             <label>
                                 <input name="race" class="w3-radio" type="radio" value="African">
                                 African
@@ -209,8 +201,6 @@
                                 <input name="race" class="w3-radio" type="radio" value="White">
                                 White
                             </label>
-                            <br>
-                            <label><b>Race</b></label>
                             <br><br>
                         </div>
                     </div>
@@ -218,6 +208,8 @@
 
                     <div class="w3-row">
                         <div class="w3-full">
+                            <label><b>What is the command used to create a new branch in Git?</b></label>
+                            <br>
                             <label>
                                 <input name="question" class="w3-radio" type="radio" value="git new">
                                 git new &lt;branch name&gt;
@@ -230,8 +222,6 @@
                                 <input name="question" class="w3-radio" type="radio" value="git branch">
                                 git branch &lt;branch name&gt;
                             </label>
-                            <br>
-                            <label><b>What is the command used to create a new branch in Git?</b></label>
                             <br><br>
                         </div>
                     </div>
@@ -252,6 +242,17 @@
                 </form>
             </div>
         </div>
+        <hr>
+
+        <div class="w3-center">
+            <h2>Location</h2>
+
+
+            <div class="w3-row">
+                <p id="location"></p>
+            </div>
+        </div>
+
         <hr>
 
         <!-- Footer -->
